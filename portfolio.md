@@ -1,7 +1,5 @@
 # Examples of my works
 
-[Link to my CodeWars account](https://www.codewars.com/users/rsschool_Bulation)
-
 ## Tic-Tac Toe
 
 [Source code](https://github.com/Bulation/Tic-Tac-Toe-game/tree/tic-tac-toe)
@@ -70,3 +68,7 @@ App was created with using MVC pattern, classes, all content generated dynamical
 Project was assembled by webpack, eslint airbnb config is used.
 
 [Deploy](https://bulation.github.io/Async-Race/async-race/)
+
+### CodeWars
+
+[Link to my CodeWars account](https://www.codewars.com/users/rsschool_Bulation)
