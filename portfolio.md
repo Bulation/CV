@@ -1,5 +1,49 @@
 # Examples of my works
 
+## Async-Race
+
+[Source code](https://github.com/Bulation/Async-Race/tree/dev)
+
+There I worked with REST API, created interface for CRUD requests, worked with asynchronous JS, handled errors that can occur from server, created animations with RequestAnimationFrame, saved state of pages when user switch to another page, implemented sorting winners by count of wins and by time in "Winner" page. 
+
+There is not used "any" type, code completely is covered by types, created interfaces and special types.
+
+Application is divided to logical modules: working with API, UI rendering and app state are sepatate modules
+
+App was created with using MVC pattern, classes, all content generated dynamically in TS
+
+Project was assembled by webpack, eslint airbnb config is used.
+
+[Deploy](https://bulation.github.io/Async-Race/async-race/)
+
+## Online Store
+
+[Source code](https://github.com/Bulation/Online-Store/tree/dev)
+
+My first project on TypeScript. I created app, where user can filter, sort and search books, add them to cart and removing from cart, reset sorting and filter settings. Filters and sorting state are saved in local storage, so after reloading page filters and sorting remain the same. 
+
+There is not used "any" type, code completely is covered by types, created interfaces and special types.
+
+App was created with using MVC pattern, classes. Cards of books generated dynamically in TS
+
+Project was assembled by webpack, typescript-eslint/recommended config is used.
+
+[Deploy](https://bulation.github.io/Online-Store/online-store/)
+
+## Virtual Keyboard
+
+[Source code](https://github.com/Bulation/virtual-keyboard/tree/virtual-keyboard)
+
+It is virtual keyboard with three available languages: russian, english, tatar. Active language on real keyboard is not binded with language on virtual. User can print key on real keyboard or click on virtual keys and key will be showed on textarea. There is implemented Delete, Tab, Enter, Backspace, Shift, Alt keys and arrows like in real keyboard. Active language is stored in local storage;
+
+Project was written on JS, using MVC pattern and classes, code was separated to independent layers.
+
+HTML is empty, all content generated dynamically in JS
+
+Project was assembled by webpack, eslint airbnb config is used.
+
+[Deploy](https://bulation.github.io/virtual-keyboard/virtual-keyboard/)
+
 ## Tic-Tac Toe
 
 [Source code](https://github.com/Bulation/Tic-Tac-Toe-game/tree/tic-tac-toe)
@@ -25,49 +69,7 @@ There model and view are divided from each other, is used component approach.
 
 Project was assembled by webpack, eslint airbnb config is used.
 
-[Deploy](https://bulation.github.io/Tic-Tac-Toe-game/tic-tac-toe/)
-
-## Virtual Keyboard
-
-[Source code](https://github.com/Bulation/virtual-keyboard/tree/virtual-keyboard)
-
-It is virtual keyboard with three available languages: russian, english, tatar. Active language on real keyboard is not binded with language on virtual. User can print key on real keyboard or click on virtual keys and key will be showed on textarea. There is implemented Delete, Tab, Enter, Backspace, Shift, Alt keys and arrows like in real keyboard. Active language is stored in local storage;
-
-Project was written on JS, using MVC pattern and classes, code was separated to independent layers.
-
-HTML is empty, all content generated dynamically in JS
-
-Project was assembled by webpack, eslint airbnb config is used.
-
-[Deploy](https://bulation.github.io/virtual-keyboard/virtual-keyboard/)
-
-## Online Store
-
-[Source code](https://github.com/Bulation/Online-Store/tree/dev)
-
-My first project on TypeScript. I created app, where user can filter, sort and search books, add them to cart and removing from cart, reset sorting and filter settings. Filters and sorting state are saved in local storage, so after reloading page filters and sorting remain the same. 
-
-There is not used "any" type, code completely is covered by types, created interfaces and special types.
-
-App was created with using MVC pattern, classes. Cards of books generated dynamically in TS
-
-Project was assembled by webpack, typescript-eslint/recommended config is used.
-
-## Async-Race
-
-[Source code](https://github.com/Bulation/Async-Race/tree/dev)
-
-There I worked with REST API, created interface for CRUD requests, worked with asynchronous JS, handled errors that can occur from server, created animations with RequestAnimationFrame, saved state of pages when user switch to another page, implemented sorting winners by count of wins and by time in "Winner" page. 
-
-There is not used "any" type, code completely is covered by types, created interfaces and special types.
-
-Application is divided to logical modules: working with API, UI rendering and app state are sepatate modules
-
-App was created with using MVC pattern, classes, all content generated dynamically in TS
-
-Project was assembled by webpack, eslint airbnb config is used.
-
-[Deploy](https://bulation.github.io/Async-Race/async-race/)
+[Deploy](https://bulation.github.io/Shelter/shelter/)
 
 ### CodeWars
 
