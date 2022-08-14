@@ -1,5 +1,7 @@
 # Examples of my works
 
+[Link to my CodeWars account](https://www.codewars.com/users/rsschool_Bulation)
+
 ## Tic-Tac Toe
 
 [Source code](https://github.com/Bulation/Tic-Tac-Toe-game/tree/tic-tac-toe)
