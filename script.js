@@ -124,13 +124,9 @@ class Slider {
 			startTime = new Date();
 		});
 		el.addEventListener('touchstart', (e) => {
-			e.preventDefault();
 			startX = e.changedTouches[0].pageX;
 			startY = e.changedTouches[0].pageY;
 			startTime = new Date();
-		});
-		el.addEventListener('touchmove', (e) => {
-			e.preventDefault();
 		});
 		el.addEventListener('touchend', (e) => {
 			finishX = e.changedTouches[0].pageX;
