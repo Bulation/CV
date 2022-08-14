@@ -1,2 +1,2 @@
-# https://bulation.github.io/rsschool-cv/cv
-# https://bulation.github.io/rsschool-cv/
+# https://bulation.github.io/CV/portfolio
+# https://bulation.github.io/CV/
