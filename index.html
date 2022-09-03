@@ -21,20 +21,26 @@
             <div class="headline">
                 <img class="self-photo" src="img/self.jpg" alt="My Photo">
                 <div>
-                    <h1>Bulat Garipov</h1>
+                    <h1 class="text">Булат Гарипов</h1>
                     <p>Junior Frontend-Developer</p>
                 </div>
             </div>
             <nav class="navigation">
                 <div class="close hidden"></div>
                 <ul class="navigation-list">
-                    <li class="navigation-list__item"><a class="navigation-list__link active" href="#about">About</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#contacts">Contacts</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#skills">Skills</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#english">English</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#education">Education</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#projects">Projects</a></li>
-                    <li class="navigation-list__item"><a class="navigation-list__link" href="#code">Code</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#about">Обо мне</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#contacts">Контакты</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#skills">Умения</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#english">Уровень английского</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#education">Образование</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#projects">Проекты</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#code">Пример кода</a></li>
+                    <div class="langs">
+                      <input id="en" type="radio" name="lang" class="langs__en" value="en">
+                      <label class="en" for="en">EN</label>
+                      <input id="ru" type="radio" name="lang" class="langs__ru" value="ru" checked>
+                      <label class="ru" for="ru">RU</label>
+                    </div>
                 </ul>
             </nav>
         </div> 
@@ -42,26 +48,32 @@
     <main>
         <div class="container section-container">
             <section id="about">
-                <h2>About me</h2>
-                <p>My name is Bulat and I'm 20 years old. I'm interesting in programming from childhood, so first lines of code I wrote in Java when I was 13 years old. For many years I have been trying to find sphere of programming that will be interesting for me and now I decided to start career in IT on frontend. My goal now is to become a good specialist in frontend and with this experience develop further in IT</p>
-                <h3>My strenghs</h3>
+                <h2 class="text">Обо мне</h2>
+                <p class="text">Меня зовут Булат, мне 20 лет. Я интересуюсь программированием с детства, так что первые строчки кода я написал уже в 13
+                лет на языке Java. Все эти годы я искал область программирования, которая была бы мне интересна и сейчас я решил начать
+                карьеру в IT во фронтенд разработке. Сейчас моя цель - стать хорошим специалистом во фронтенде и с этим опытом
+                развиваться дальше в IT сфере</p>
+                <h3 class="text">Мои сильные стороны</h3>
                 <ul>
-                    <li>Diligence</li>
-                    <li>Patience</li>
-                    <li>Good memory</li>
-                    <li>Skill of finding information quickly</li>
-                    <li>Ability to solve problems indepedently</li>
+                    <li class="text">Исполнительность</li>
+                    <li class="text">Терпеливость</li>
+                    <li class="text">Хорошая память</li>
+                    <li class="text">Умение быстро находить нужную информацию</li>
+                    <li class="text">Способность решать проблемы самостоятельно</li>
                 </ul>
-                <h3>Work experience</h3>
+                <h3 class="text">Опыт работы</h3>
                 <ul>
-                    <li>2020-2021: Informatics USE Mentor in online-school. In this work I checked homeworks of school students, mostly on Python language, explained them how to solve some particular tasks in the USE, answered their questions about exam and etc</li>
+                    <li class="text">2020-2021: Куратор ЕГЭ по информатике в онлайн-школе. Проверял домашние работы по программированию у 11-классников, в
+                    основном на языке Python, оставлял под работами замечания, предложения по исправлению, советы по тому, как лучше писать
+                    код. Также отвечал на их вопросы касаемо заданий ЕГЭ, помогал в решениях и отвечал на все вопросы, касаемо организации
+                    экзамена</li>
                 </ul>
             </section>
 
             <section id="contacts">
-                <h2>Contact information</h2>
+                <h2 class="text">Контактная информация</h2>
                 <ul class="contacts">
-                    <li class="rus">Location: Saint-Petersburg</li>
+                    <li class="rus text">Место проживания: Санкт-Петербург</li>
                     <li class="phone"><a href="tel:+79872141640">+7 987 214 1640</a></li>
                     <li class="email"><a href="mailto:insanbulat@gmail.com">insanbulat@gmail.com</a></li>
                     <li class="tg"><a href="http://t.me/bulation">@Bulation</a></li>
@@ -70,31 +82,31 @@
             </section>
             
             <section id="skills">
-                <h2>Skills</h2>
+                <h2 class="text">Умения</h2>
                 <ul>
-                    <li>HTML, CSS, SCSS, BEM, basic knowledge of Bootstrap</li>
-                    <li>JavaScript, TypeScript, basic knowledge of Python and Node.js</li>
+                    <li class="text">HTML, CSS, SCSS, БЭМ, начальные знания Bootstrap</li>
+                    <li class="text">JavaScript, TypeScript, начальные знания Python и Node.js</li>
                     <li>Git, Webpack, ESLint</li>
                     <li>CMS Modx</li>
                     <li>REST API</li>
-                    <li>Basic knowledge of OOP, MVC pattern</li>
+                    <li class="text">Начальные знания ООП, паттерна MVC и дата-биндинга</li>
                 </ul>
             </section>
             
             <section id="english">
-                <h2>Level of English</h2>
-                <p>Between A2 and B1</p>
+                <h2 class="text">Уровень английского</h2>
+                <p class="text">Между A2 и B1</p>
             </section>
             
             <section id="education">
-                <h2>Education</h2>
+                <h2 class="text">Образование</h2>
                 <ul>
-                    <li>RSSchool March 2022 — in progress</li>
+                    <li class="text">RSSchool Март 2022 — Сентябрь 2022</li>
                 </ul>
             </section>
 
             <section id="projects" class="projects long-section">
-                <h2 class="projects__title">My Projects</h2>
+                <h2 class="projects__title text">Мои проекты</h2>
                 <div class="projects-carousel">
                   <div class="project__control project__control_left">
                     <div class="project__arrow project__arrow_left">&lt;</div>
@@ -106,9 +118,9 @@
                           <img class="project__img" src="img/race.png" alt="Async Race">
                           <div class="project-description">
                             <h3 class="project-description__title">Async Race</h3>
-                            <p class="project-description__text">Another project on TypeScript. There I worked with REST API, created
-                              interface for CRUD requests, worked with asynchronous JS, created animations with RequestAnimationFrame, saved
-                              state of pages. App was created with using MVC pattern.</p>
+                            <p class="project-description__text text">Проект на TS. В нем я работал с REST API, создал интерфейс для работы с CRUD-операциями, работал с
+                            асинхронностью, создавал анимации с использованием requestAnimationFrame, сохранял состояние страниц при переключении
+                            страниц. Приложение создано с использованием MVC</p>
                           </div>
                         </a>
                       </li>
@@ -117,10 +129,9 @@
                           <img class="project__img" src="img/store.png" alt="Online Store">
                           <div class="project-description">
                             <h3 class="project-description__title">Online Store</h3>
-                            <p class="project-description__text">My first project on TypeScript. I created app, where user can filter, sort
-                              and search books, add them to cart and removing from cart. Filters and sorting state save in local storage, so
-                              after reloading page filters and sorting remain the same. Also user can reset filters and sorting. App was
-                              created with using MVC pattern.</p>
+                            <p class="project-description__text text">Мой первый проект на TS, в котором пользователь может фильтровать, сорртировать и искать
+                            книги, добавлять их в корзину и удалять оттуда. Фильтры и сортировка сохраняются в Local Storage, так что после
+                            перезагрузки страницы состояние фильтров и сортировки остается тем же.</p>
                           </div>
                         </a>
                       </li>
@@ -130,7 +141,9 @@
                           <img class="project__img" src="img/shelter.png" alt="Shelter">
                           <div class="project-description">
                             <h3 class="project-description__title">Shelter</h3>
-                            <p class="project-description__text">It is SPA that i made entirely on pure JS with empty HTML, styles were written on SCSS, entirely adaptive and with BEM methodology. In this site I implemented endless slider with randomly generated slides, pagination in "Our pets" section and modal windows with info about pets.</p>
+                            <p class="project-description__text text">Лендинг созданный на чистом JS, с пустым HTML, стили были написаны на SCSS, верстка адаптивная до 320px,
+                            использован БЭМ. В этом лендинге я реализовал бесконечный слайдер с рандомно генерирующимися слайдами,
+                            пагинацию на странице Our Pets и модальные окна с информацией о животных.</p>
                           </div>
                         </a>
                       </li>
@@ -139,8 +152,8 @@
                           href="https://bulation.github.io/Tic-Tac-Toe-game/tic-tac-toe/">
                           <img class="project__img" src="img/tic-tac-toe.png" alt="Tic-Tac Toe">
                           <div class="project-description">
-                            <h3 class="project-description__title">Tic-Tac Toe</h3>
-                            <p class="project-description__text">Game where i tried implement MVC pattern. I created game model, where i save game state, game view that triggered game model and binded model and view on controller. Also I implemented settings game and modal windows. Project was written on JS, using classes;
+                            <h3 class="project-description__title text">Крестики-нолики</h3>
+                            <p class="project-description__text text">Игра с попыткой реализации паттерна MVC. В этом проекте я создал модель, где я сохранял состояние, вьюшку, которая триггерила модель и все это связывалось в контроллере. Также реализованы настройки, модальные окна, таблица рекордов с сохранением результатов последних 10 игр.
                             </p>
                           </div>
                         </a>
@@ -150,8 +163,9 @@
                           href="https://bulation.github.io/virtual-keyboard/virtual-keyboard/">
                           <img class="project__img" src="img/keyboard.png" alt="Virtual Keyboard">
                           <div class="project-description">
-                            <h3 class="project-description__title">Virtual Keyboard</h3>
-                            <p class="project-description__text">Another project where I used MVC pattern. There I also separated code on modules and separated them to different folders. Project was assembled by Webpack, also used ESLint Airbnb config here.</p>
+                            <h3 class="project-description__title text">Виртуальная клавиатура</h3>
+                            <p class="project-description__text text">Проект с использованием паттерна MVC. Код разбит на независмые модули. Проект собран на вебпаке, использован eslint
+                            airbnb конфиг</p>
                           </div>
                         </a>
                       </li>
@@ -171,11 +185,11 @@
             </section>
 
             <section id="code" class="long-section">
-                <h2>Code example</h2>
-                <p>My solution of <a href="https://www.codewars.com/kata/53583765d5493bfdf5001b35">this codewars kata</a></p>
-                <p>Problem: Make a Cat constructor that takes arguments name and weight to instantiate a new cat object. The constructor should also
-                have an averageWeight method that returns the average weight of cats created with the constructor.</p>
-                <p>Solution on JavaScript:</p>
+                <h2 class="text">Пример кода</h2>
+                <p class="text">Мое решение <a href="https://www.codewars.com/kata/53583765d5493bfdf5001b35">этой каты из кодварс</a></p>
+                <p class="text">Задача: реализовать конструктор Cat, которые принимает в качестве аргументов имя и вес для создания объекта кота.
+                Конструктор также должен иметь метод averageWeight, который возвращает средний вес котов, созданных в конструкторе.</p>
+                <p class="text">Решение на JavaScript:</p>
                 <pre><code class="js">
 var Cat = (function () {
   let weights = {};

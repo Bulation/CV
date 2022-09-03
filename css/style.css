@@ -6,7 +6,11 @@
 }
 body {
     background-image: url(../img/bg.jpg);
-    font: 16px/150% Lato, sans-serif;
+    font: 16px/150% Lato, Verdana,
+      Geneva,
+      Tahoma,
+      Roboto,
+      sans-serif;
 }
 .hamburger {
     display: none;
@@ -60,7 +64,7 @@ a {
 h1, 
 h2, 
 h3 {
-    font-family: Kollektif;
+    font-family: Kollektif, Verdana, Geneva, Tahoma, Roboto, sans-serif;
     text-transform: uppercase;
 }
 mark {
@@ -91,6 +95,7 @@ li {
 }
 .navigation-list__item {
     list-style-type: none;
+    text-align: center;
 }
 .navigation-list__link {
     color: #000000;
@@ -283,8 +288,8 @@ pre, code {
     text-align: center;
     margin: 0 auto;
     width: 90%;
-    padding: 15px;
     position: absolute;
+    padding: 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -339,6 +344,31 @@ pre, code {
 .hidden {
     display: none;
 }
+@media screen and (max-width: 1500px) {
+  .hamburger {
+      display: inline-block;
+    }
+  
+    .navigation {
+      position: fixed;
+      left: -100%;
+      top: 0;
+      height: 100vh;
+      transition: all 0.3s;
+      z-index: 1;
+      background: white;
+      width: 35%;
+      min-width: 200px;
+    }
+  
+    .transform {
+      left: 0;
+    }
+  
+    .navigation-list {
+      flex-direction: column;
+    }
+}
 @media screen and (max-width: 1024px) {
     .section-container,
     .header-container, 
@@ -354,26 +384,6 @@ pre, code {
     }
     .header-container {
         justify-content: normal;
-    }
-    .hamburger {
-        display: inline-block;
-    }
-    .navigation {
-        position: fixed;
-        left: -100%;
-        top: 0;
-        height: 100vh;
-        transition: all 0.3s;
-        z-index: 1;
-        background: white;
-        width: 35%;
-        min-width: 200px;
-    }
-    .transform {
-        left: 0;
-    }
-    .navigation-list {
-        flex-direction: column;
     }
     .self-photo {
         margin-top: 20px;
@@ -405,13 +415,16 @@ pre, code {
       width: 100%;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     h1 {
         font-size: 1.4em;
     }
     .project-description {
       font-size: 11px;
-      text-align: justify;
+      text-align: unset;
+      background-color: #000000;
+      padding: 0;
+      width: 95%;
     }
 }
 
@@ -421,4 +434,16 @@ pre, code {
     .footer-container {
         max-width: 35%;
     }
+}
+.langs__en,
+.langs__ru {
+  position: fixed;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+
+.langs__en:checked+label,
+.langs__ru:checked+label {
+  color: #32CD32;
 }
