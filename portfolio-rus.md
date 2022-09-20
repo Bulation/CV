@@ -2,7 +2,7 @@
 
 ## Todo List
 
-[Исходный код](https://github.com/Bulation/interning/tree/dev)
+[Исходный код](https://github.com/Bulation/react-todo/tree/dev)
 
 Мой первый проект на реакте. В этом приложении пользователь может создавать список дел, редактировать их, удалять, выставлять статус дела (в ожидании/в процессе/завершен), искать дела по их названию. Реализована возможность изменять ширину секции списка дел по удержании и перемещении правой границы курсором мыши. Список дел сохраняется в Local Storage.
 
@@ -12,7 +12,7 @@
 
 Проект настроен с помощью Create-React-App
 
-[Деплой](https://bulation.github.io/interning/todo-app/)
+[Деплой](https://bulation.github.io/react-todo/todo-app/)
 
 ## Async-Race
 
