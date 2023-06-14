@@ -1,5 +1,25 @@
 # Examples of my works
 
+## SDAEM
+
+[Source code](https://github.com/Bulation/course-work/tree/develop)
+
+This is a project about flat rent made in React. There I implemented filter of flats, include Swiper for slider, create simple implementation of authorization that stored data in local storage, worked with News API to create news page, worked with forms in contacts, authorization and registration pages, add Dockerfile. In catalog page I implemented pagination and sorting of flats. List of used libraries written in GitHub.
+
+[Deploy](https://bulation.github.io/course-work/sdaem/)
+
+## Hotel Rent Prototype
+
+SPA project in Vue 3 with 4 pages. There I worked with filter and order forms, include Swiper for slider, LeafletMap for map. All additional info written in GitHub
+
+[Deploy](https://ratio-module5.netlify.app/)
+
+## 2048
+
+This is a 2048 game, where client created in pure TS, server in NodeJS, database in MongoDB. Client and server created in OOP style. All additional information about architecture and other answers written in project Readme.
+
+[Deploy](https://bulation.github.io/Ratio/module3/)
+
 ## Async-Race
 
 [Source code](https://github.com/Bulation/Async-Race/tree/dev)
@@ -71,6 +91,7 @@ Project was assembled by webpack, eslint airbnb config is used.
 
 [Deploy](https://bulation.github.io/Shelter/shelter/)
 
-### CodeWars
+### CodeWars and Leetcode
 
 [Link to my CodeWars account](https://www.codewars.com/users/rsschool_Bulation)
+[Link to my Leetcode account](https://leetcode.com/insanbulat/)
