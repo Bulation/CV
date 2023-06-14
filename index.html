@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icons/title-icon.png">
+    <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/gradient-light.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <title>My CV</title>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="header__hamburger hamburger"><span class="hamburger__line"></span></div>
+            <div class="headline">
+                <img class="self-photo" src="img/self.jpg" alt="My Photo">
+                <div>
+                    <h1 class="text">Булат Гарипов</h1>
+                    <p>Junior Frontend-Developer</p>
+                </div>
+            </div>
+            <nav class="navigation">
+                <div class="close hidden"></div>
+                <ul class="navigation-list">
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#about">Обо мне</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#contacts">Контакты</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#skills">Умения</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#english">Уровень английского</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#education">Образование</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#projects">Проекты</a></li>
+                    <li class="navigation-list__item"><a class="navigation-list__link text" href="#code">Пример кода</a></li>
+                    <div class="langs">
+                      <input id="en" type="radio" name="lang" class="langs__en" value="en">
+                      <label class="en" for="en">EN</label>
+                      <input id="ru" type="radio" name="lang" class="langs__ru" value="ru" checked>
+                      <label class="ru" for="ru">RU</label>
+                    </div>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <main>
+        <div class="container section-container">
+            <section id="about">
+                <h2 class="text">Обо мне</h2>
+                <p class="text">Меня зовут Булат, мне 20 лет. Я интересуюсь программированием с детства, так что первые строчки кода я написал уже в 13
+                лет на языке Java. Все эти годы я искал область программирования, которая была бы мне интересна и сейчас я решил начать
+                карьеру в IT во фронтенд разработке. Сейчас моя цель - стать хорошим специалистом во фронтенде и с этим опытом
+                развиваться дальше в IT сфере</p>
+                <h3 class="text">Мои сильные стороны</h3>
+                <ul>
+                    <li class="text">Исполнительность</li>
+                    <li class="text">Терпеливость</li>
+                    <li class="text">Хорошая память</li>
+                    <li class="text">Умение быстро находить нужную информацию</li>
+                    <li class="text">Способность решать проблемы самостоятельно</li>
+                </ul>
+                <h3 class="text">Опыт работы</h3>
+                <ul>
+                    <li class="text">2020-2021: Куратор ЕГЭ по информатике в онлайн-школе. Проверял домашние работы по программированию у 11-классников, в
+                    основном на языке Python, оставлял под работами замечания, предложения по исправлению, советы по тому, как лучше писать
+                    код. Также отвечал на их вопросы касаемо заданий ЕГЭ, помогал в решениях и отвечал на все вопросы, касаемо организации
+                    экзамена</li>
+                </ul>
+            </section>
+
+            <section id="contacts">
+                <h2 class="text">Контактная информация</h2>
+                <ul class="contacts">
+                    <li class="rus text">Место проживания: Санкт-Петербург</li>
+                    <li class="phone"><a href="tel:+79872141640">+7 987 214 1640</a></li>
+                    <li class="email"><a href="mailto:insanbulat@gmail.com">insanbulat@gmail.com</a></li>
+                    <li class="tg"><a href="http://t.me/bulation">@Bulation</a></li>
+                    <li class="discord"><a href="http://discord.com/users/222664316459941890">Bulation#0685</a></li>
+                </ul>
+            </section>
+            
+            <section id="skills">
+                <h2 class="text">Умения</h2>
+                <ul>
+                    <li class="text">HTML, CSS, SCSS, БЭМ, начальные знания Bootstrap</li>
+                    <li class="text">JavaScript, TypeScript, начальные знания Python и Node.js</li>
+                    <li>Git, Webpack, ESLint</li>
+                    <li>CMS Modx</li>
+                    <li>REST API</li>
+                    <li class="text">Начальные знания ООП, паттерна MVC и дата-биндинга</li>
+                </ul>
+            </section>
+            
+            <section id="english">
+                <h2 class="text">Уровень английского</h2>
+                <p class="text">Между A2 и B1</p>
+            </section>
+            
+            <section id="education">
+                <h2 class="text">Образование</h2>
+                <ul>
+                    <li class="text">RSSchool Март 2022 — Сентябрь 2022. <a href="https://app.rs.school/certificate/oc7x1guy">Сертификат об успешном окончании</a></li>
+                </ul>
+            </section>
+
+            <section id="projects" class="projects long-section">
+                <h2 class="projects__title text">Мои проекты</h2>
+                <div class="projects-carousel">
+                  <div class="project__control project__control_left">
+                    <div class="project__arrow project__arrow_left">&lt;</div>
+                  </div>
+                  <div class="projects-container">
+                    <ul class="project-list">
+                      <li class="project async-race">
+                        <a class="project-link" target="_blank" href="https://bulation.github.io/Async-Race/async-race/">
+                          <img class="project__img" src="img/race.png" alt="Async Race">
+                          <div class="project-description">
+                            <h3 class="project-description__title">Async Race</h3>
+                            <p class="project-description__text text">Проект на TS. В нем я работал с REST API, создал интерфейс для работы с CRUD-операциями, работал с
+                            асинхронностью, создавал анимации с использованием requestAnimationFrame, сохранял состояние страниц при переключении
+                            страниц. Приложение создано с использованием MVC</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="project online-store">
+                        <a class="project-link" target="_blank" href="https://bulation.github.io/Online-Store/online-store/">
+                          <img class="project__img" src="img/store.png" alt="Online Store">
+                          <div class="project-description">
+                            <h3 class="project-description__title">Online Store</h3>
+                            <p class="project-description__text text">Мой первый проект на TS, в котором пользователь может фильтровать, сорртировать и искать
+                            книги, добавлять их в корзину и удалять оттуда. Фильтры и сортировка сохраняются в Local Storage, так что после
+                            перезагрузки страницы состояние фильтров и сортировки остается тем же.</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="project shelter">
+                        <a class="project-link" target="_blank"
+                          href="https://bulation.github.io/Shelter/shelter/">
+                          <img class="project__img" src="img/shelter.png" alt="Shelter">
+                          <div class="project-description">
+                            <h3 class="project-description__title">Shelter</h3>
+                            <p class="project-description__text text">Лендинг созданный на чистом JS, с пустым HTML, стили были написаны на SCSS, верстка адаптивная до 320px,
+                            использован БЭМ. В этом лендинге я реализовал бесконечный слайдер с рандомно генерирующимися слайдами,
+                            пагинацию на странице Our Pets и модальные окна с информацией о животных.</p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="project tic-tac-toe">
+                        <a class="project-link" target="_blank"
+                          href="https://bulation.github.io/Tic-Tac-Toe-game/tic-tac-toe/">
+                          <img class="project__img" src="img/tic-tac-toe.png" alt="Tic-Tac Toe">
+                          <div class="project-description">
+                            <h3 class="project-description__title text">Крестики-нолики</h3>
+                            <p class="project-description__text text">Игра с попыткой реализации паттерна MVC. В этом проекте я создал модель, где я сохранял состояние, вьюшку, которая триггерила модель и все это связывалось в контроллере. Также реализованы настройки, модальные окна, таблица рекордов с сохранением результатов последних 10 игр.
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="project Keyboard">
+                        <a class="project-link" target="_blank"
+                          href="https://bulation.github.io/virtual-keyboard/virtual-keyboard/">
+                          <img class="project__img" src="img/keyboard.png" alt="Virtual Keyboard">
+                          <div class="project-description">
+                            <h3 class="project-description__title text">Виртуальная клавиатура</h3>
+                            <p class="project-description__text text">Проект с использованием паттерна MVC. Код разбит на независмые модули. Проект собран на вебпаке, использован eslint
+                            airbnb конфиг</p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="project__control project__control_right">
+                    <div class="project__arrow project__arrow_right">&gt;</div>
+                  </div>
+                </div>
+                <ul class="project-pagination">
+                  <li data-count='1' class="project-pagination__item project-pagination__item_active"></li>
+                  <li data-count='2' class="project-pagination__item"></li>
+                  <li data-count='3' class="project-pagination__item"></li>
+                  <li data-count='4' class="project-pagination__item"></li>
+                  <li data-count='5' class="project-pagination__item"></li>
+                </ul>
+            </section>
+
+            <section id="code" class="long-section">
+                <h2 class="text">Пример кода</h2>
+                <p class="text">Мое решение <a href="https://www.codewars.com/kata/53583765d5493bfdf5001b35">этой каты из кодварс</a></p>
+                <p class="text">Задача: реализовать конструктор Cat, которые принимает в качестве аргументов имя и вес для создания объекта кота.
+                Конструктор также должен иметь метод averageWeight, который возвращает средний вес котов, созданных в конструкторе.</p>
+                <p class="text">Решение на JavaScript:</p>
+                <pre><code class="js">
+var Cat = (function () {
+  let weights = {};
+  function constructor (name, weight) {
+    if (!name || !weight)
+      throw new Error();
+    this.name = name;
+    this.weight = weight;
+    Object.defineProperty(this, 'weight', {
+      get: () => weight,
+      set: value => {
+        weight = value;
+        weights[name] = weight;
+      }
+    })
+    weights[name] = weight;
+  }
+  constructor.averageWeight = function () {
+    let s = 0;
+    for (let weight in weights) {
+      s += weights[weight];
+    }
+    return s / Object.values(weights).length;
+  }
+  return constructor;
+}());</code></pre>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <a href="https://github.com/Bulation"><img class="github" src="img/github.png" alt="Link on my GitHub"></a>
+            <time>2022</time>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
